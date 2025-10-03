@@ -4,10 +4,10 @@ import RecipeCard from "./components/RecipeCard";
 
 export default function Home() {
   return (
-    <>
+    <div>
       {/* <Card /> */}
       {/* <RecipeCard /> */}
-      <ErgoDashboard/>
-    </>
+      <ErgoDashboard />
+    </div>
   );
 }
