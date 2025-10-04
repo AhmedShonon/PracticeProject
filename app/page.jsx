@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import ErgoDashboard from "./components/ErgoDashboard";
 import RecipeCard from "./components/RecipeCard";
+import ShundarbanForm from "./components/ShundarbanForm";
 import Shunderban from "./components/Shunderban";
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
       {/* <Card /> */}
       {/* <RecipeCard /> */}
       {/* <ErgoDashboard /> */}
-      <Shunderban/>
+      {/* <Shunderban/> */}
+      <ShundarbanForm/>
     </div>
   );
 }
