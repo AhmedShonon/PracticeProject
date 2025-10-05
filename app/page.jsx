@@ -5,6 +5,7 @@ import RecipeCard from "./components/RecipeCard";
 import ShundarbanForm from "./components/ShundarbanForm";
 import Shunderban from "./components/Shunderban";
 import Calculator from "./components/Calculator";
+import CustomerList from "./components/CustomerList";
 export default function Home() {
   return (
     <div>
@@ -13,7 +14,8 @@ export default function Home() {
       {/* <ErgoDashboard /> */}
       {/* <Shunderban/> */}
       {/* <ShundarbanForm/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      <CustomerList />
     </div>
   );
 }

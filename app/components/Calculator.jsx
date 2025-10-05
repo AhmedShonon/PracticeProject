@@ -1,6 +1,6 @@
 "use client"
-import React, {useState} from "react";
-
+import React from "react";
+import { useState } from "react";
 const Calculator = () => {
   const [count, setCount] = useState(0);
 
