@@ -100,7 +100,7 @@ const ContactUsForm = () => {
                   </div>
                 </div>
               </div>
-              <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+              <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                 <label
                   className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   for="grid-zip"
@@ -117,16 +117,15 @@ const ContactUsForm = () => {
             </div>
           </form>
         </div>
-        <div>
-          <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] max-w-none">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17017.63695183535!2d89.40742294137809!3d24.676490014930295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1759697326504!5m2!1sen!2sbd"
-              className="w-full h-full rounded-2xl border-0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+
+        <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] max-w-none">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17017.63695183535!2d89.40742294137809!3d24.676490014930295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1759697326504!5m2!1sen!2sbd"
+            className="w-full h-full rounded-2xl border-0"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
