@@ -6,6 +6,7 @@ import Shunderban from "./components/Shunderban";
 import Calculator from "./components/Calculator";
 import CustomerList from "./components/CustomerList";
 import ContactUs from "./components/ContactUs";
+import AboutUS from "./components/Turmet/AboutUS";
 export default function Home() {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function Home() {
       {/* <Calculator/> */}
       {/* <CustomerList /> */}
       <ContactUs />
+      {/* <AboutUS/> */}
     </div>
   );
 }
