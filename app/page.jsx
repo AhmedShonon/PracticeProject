@@ -7,6 +7,8 @@ import Calculator from "./components/Calculator";
 import CustomerList from "./components/CustomerList";
 import ContactUs from "./components/ContactUs";
 import AboutUS from "./components/Turmet/AboutUS";
+import AboutUsTurmet from "./components/AboutUsTurmet";
+import AboutUsTourGuide from "./components/AboutUsTourGuide";
 export default function Home() {
   return (
     <div>
@@ -17,7 +19,9 @@ export default function Home() {
       {/* <ShundarbanForm/> */}
       {/* <Calculator/> */}
       {/* <CustomerList /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
+      <AboutUsTurmet/>
+      <AboutUsTourGuide/>
       {/* <AboutUS/> */}
     </div>
   );
